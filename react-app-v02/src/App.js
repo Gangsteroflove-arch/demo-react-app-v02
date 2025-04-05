@@ -1,7 +1,8 @@
+import Home from "./components/home";
 function App() {
   return (
     <>
-        <p>Task on Hand</p>
+      <Home/>
 
     </>
   );
