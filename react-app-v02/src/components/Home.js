@@ -1,4 +1,18 @@
+import{useEffect} from "react"
+
 function Home() {
+/* useEffect(function) - ananymous function, callback, arraw fuction */
+  //useEffect(function(){})
+  //useEffect(()=>{
+
+    useEffect(()=>{
+
+      console.log("#App::Home page load")
+
+       //page load [] -- 1 time
+    //-- always refresh page on state update -- setTodoList , updated caused a page refresh, = endless loop page refresh
+    
+  },[]) //[] - run only 1 time 
 
     return (
       <>
