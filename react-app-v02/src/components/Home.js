@@ -1,7 +1,7 @@
 function Home() {
     return (
       <>
-      <p>task on hand v1.0.3</p>
+      <p>task on hand v1.0.4</p>
       </>
     );
   }
