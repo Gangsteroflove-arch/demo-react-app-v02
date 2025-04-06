@@ -162,7 +162,7 @@ function Home() {
   return (
       <>
       <div className="app-center-page">  
-          <h3>Demo Task Manager App v1.0.6</h3>
+          <h1>Task in hand</h1>
           <p></p>
           <div>
               <input value={txtitem} type="text" 
