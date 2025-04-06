@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-
+//import Header form "./components/Header"
 function Home() {
     return (
       <>
@@ -12,7 +12,11 @@ function Home() {
         </div>
 
          <Link to="/contactus">Contact Us</Link>
+         <p></p>
+         <p>footer 2025</p>
       </>
+
+
     );
   }
   
