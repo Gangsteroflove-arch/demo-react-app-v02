@@ -5,6 +5,7 @@ import Home from "./components/home";
 import ContactUs from "./components/contactus"; 
 import NavBar from "./components/navbar";
 import "./App.css"
+
 function App() {
   return (
     <>

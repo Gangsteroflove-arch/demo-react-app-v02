@@ -161,7 +161,8 @@ function Home() {
 
   return (
       <>
-      <div className="app-center-page">  
+      <div className="app-center-page"> 
+        
           <h1>Task in hand</h1>
           <p></p>
           <div>
@@ -192,6 +193,7 @@ function Home() {
                 </>}
               </p>)}
           </div>
+        
           <p></p>
           <p>footer @ 2025</p>       
         </div>
