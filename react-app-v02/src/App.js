@@ -3,12 +3,14 @@
 import {HashRouter, Routes, Route} from "react-router-dom"
 import Home from "./components/home";
 import ContactUs from "./components/contactus"; 
-
+import NavBar from "./components/navbar";
 
 function App() {
   return (
     <>
-      <HashRouter>            
+      
+      <HashRouter> 
+        <NavBar/>          
         <Routes>      
          <Route path="/" element={<Home/>}/>
          <Route path="/contactus" element={<ContactUs/>}/>
