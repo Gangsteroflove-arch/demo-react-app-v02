@@ -6,7 +6,7 @@ function Home() {
       <p>task on hand v1.0.4</p>
       <p></p>
 
-      <Link to="/Contact Us"></Link>
+      <Link to="/contactus">Contact Us</Link>
       </>
     );
   }
